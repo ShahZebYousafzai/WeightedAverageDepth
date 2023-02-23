@@ -80,11 +80,11 @@ and visualize the training progress by opening [https://localhost:6006](https://
 
 ## Evaluation
 
-Disparity map generation can be done with `run_inference.py`
+Depth map generation can be done with `run_inference.py`
 ```bash
 python3 run_inference.py
 ```
-Will run inference on all pictures inside `dataset-dir` and save a jpg of disparity (or depth) to `output-dir` for each one see script help (`-h`) for more options.
+Will run inference on all pictures inside `dataset-dir` and save a jpg of  depth to `output-dir` for each one see script help (`-h`) for more options.
 
 Disparity evaluation is avalaible
 ```bash
