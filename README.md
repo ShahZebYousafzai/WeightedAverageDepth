@@ -103,11 +103,28 @@ python3 test_pose.py
 
 ### Depth Results
 
+#### Validation Set
+
+![Alt text]9https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/5.%20Validation%20Set.png)
+
+#### Test Set
+
+![Alt text](https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/8.%20Inference.png)
+
+#### Quantitative Depth Results
+
 | Abs Rel | Sq Rel | RMSE  | RMSE(log) | Acc.1 | Acc.2 | Acc.3 |
 |---------|--------|-------|-----------|-------|-------|-------|
 | 0.154   | 1.089  | 1.904 | 0.192     | 0.853 | 0.944 | 0.972 | 
 
 ### Pose Results
+
+#### Trajectory Plots
+
+![Alt text](https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/Figure_1.png)
+![Alt text](https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/Figure_2.png)
+
+#### Quantitative Pose Results
 
 3-frames snippets used
 
