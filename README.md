@@ -130,10 +130,10 @@ python3 test_pose.py
 
 |                | Seq. 09              | Seq. 10              |
 |----------------|----------------------|----------------------|
-|ATE (AdamO pt)  | 0.0098 (std. 0.0062) | 0.0083 (std. 0.0067) |
+|ATE (Adam Opt)  | 0.0098 (std. 0.0062) | 0.0083 (std. 0.0067) |
 |ATE  (SGD Opt)  | 0.0092 (std. 0.0060) | 0.0081 (std. 0.0066) | 
 
 
 ## Future Work
 * Use small depth networks that take less time and accurately estimate the depth of a scene.
-* Solve overfitting of camera pose network.
+* Solve overfitting of camera pose network as the predicted pose are far from the ground truth.
