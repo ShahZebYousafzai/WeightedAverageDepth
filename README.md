@@ -99,14 +99,7 @@ Pose evaluation is also available on [Odometry dataset](http://www.cvlibs.net/da
 python3 test_pose.py
 ```
 
-**ATE** (*Absolute Trajectory Error*) is computed as long as **RE** for rotation (*Rotation Error*). **RE** between `R1` and `R2` is defined as the angle of `R1*R2^-1` when converted to axis/angle. It corresponds to `RE = arccos( (trace(R1 @ R2^-1) - 1) / 2)`.
-While **ATE** is often said to be enough to trajectory estimation, **RE** seems important here as sequences are only `seq_length` frames long.
-
-Arguments used :
-
-```bash
-python3 train.py /path/to/the/formatted/data/ -b4 -m0 -s2.0 --epoch-size 1000 --sequence-length 5 --log-output --with-gt
-```
+**ATE** (*Absolute Trajectory Error*) is computed. While **ATE** is often said to be enough to trajectory estimation.
 
 ### Depth Results
 
