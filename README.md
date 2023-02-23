@@ -105,7 +105,7 @@ python3 test_pose.py
 
 #### Validation Set
 
-![Alt text]9https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/5.%20Validation%20Set.png)
+![Alt text](https://github.com/ShahZebYousafzai/WeightedAverageDepth/blob/main/misc/5.%20Validation%20Set.png)
 
 #### Test Set
 
