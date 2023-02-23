@@ -109,7 +109,7 @@ python3 test_pose.py
 
 ### Pose Results
 
-5-frames snippets used
+3-frames snippets used
 
 |                | Seq. 09              | Seq. 10              |
 |----------------|----------------------|----------------------|
