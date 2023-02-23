@@ -1,0 +1,11 @@
+torch >= 1.0.1
+pebble
+matplotlib
+imageio
+scipy
+scikit-image
+argparse
+tensorboardX
+blessings
+progressbar2
+path.py
